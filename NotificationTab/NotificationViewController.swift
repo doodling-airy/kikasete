@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+class NotificationViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .green
+    }
+}

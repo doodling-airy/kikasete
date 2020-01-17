@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+class FollowViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .yellow
+    }
+}

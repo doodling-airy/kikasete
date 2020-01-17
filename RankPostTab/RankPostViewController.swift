@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+class RankPostViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .magenta
+    }
+}
